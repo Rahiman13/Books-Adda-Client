@@ -105,8 +105,8 @@ const NavBar = () => {
                   <NavLink
                     to={link.path}
                     className="block py-2 px-3 text-gray-900 rounded text-lg hover:bg-gray-700 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                    activeClassName="text-blue-700 dark:text-gray-500"
-                    exact
+                    activeclassname="text-blue-700 dark:text-gray-500"
+                    
                   >
                     {link.name}
                     {link.name === 'Favourites' && (
